@@ -1,0 +1,11 @@
+.Typist {
+  color: var(--lightest-slate);
+  text-align: center;
+  font-size: 76px;
+  margin-top: -30px;
+}
+
+.Typist .Cursor--blinking {
+  color: var(--green-bright);
+  padding-left: 4px;
+}
