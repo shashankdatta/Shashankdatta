@@ -11,19 +11,19 @@
   display: flex;
   align-items: baseline;
   flex-flow: row nowrap;
-  width: 100vw;
+  width: 100%;
 }
 
 .intro-title {
   font-family: var(--font-ntr);
-  font-size: 86px;
+  font-size: 6.5vw;
 }
 
 .intro-name {
   font-family: var(--font-ntr);
   color: var(--green-bright);
   font-weight: bold;
-  font-size: 86px;
+  font-size: 6.5vw;
 }
 
 .intro-subtitle {
@@ -31,7 +31,7 @@
   font-family: var(--font-ntr);
   color: var(--slate);
   font-weight: 300;
-  font-size: 48px;
+  font-size: 4vw;
 }
 
 .intro-desc {
@@ -56,14 +56,10 @@
   }
 
   .intro-title {
-    font-size: 46px;
+    font-size: 7.5vw;
   }
   .intro-name {
-    font-size: 46px;
-  }
-
-  .Typist {
-    font-size: 36px;
+    font-size: 7.5vw;
   }
 
   .intro-subtitle {
@@ -77,5 +73,10 @@
     text-align: center;
     max-width: unset;
     padding-bottom: 40px;
+  }
+
+  .contant-btn-box {
+    justify-content: center;
+    align-items: center;
   }
 }

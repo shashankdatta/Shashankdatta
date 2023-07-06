@@ -3,6 +3,7 @@
 // import ShashankModel from "./3D Model/ShashankModel";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
 
 import Typist from "react-typist";
 import FadeInSection from "./FadeInSection";
@@ -27,32 +28,34 @@ export default function Intro() {
           <span className={styles["intro-title"]}>
             {"hi, "}
             <span className={styles["intro-name"]}>{"shashank"}</span>
-            {" here!"}
+            {" here"}
           </span>
         </Typist>
       </div>
       <FadeInSection>
         <div className={styles["intro-subtitle"]}>
-          I create stuff sometimes.
+          Coding with a Dash of Caffeine.
         </div>
         <div className={styles["intro-desc"]}>
-          I&apos;m a software engineer and artist based in Toronto. I have great
-          interest in full-stack development, artificial intelligence,
-          human-computer interactions, and everything in between.
+          I&apos;m a NYC-based software engineer with a passion for full-stack
+          development, artificial intelligence, and machine learning. Let&apos;s
+          build something amazing together!
         </div>
-        <Button
-          variant="outlined"
-          startIcon={<EmailRoundedIcon />}
-          href="mailto:shashankdattabezgum@gmail.com"
-          color="greenBright"
-          size="extraLarge"
-          sx={{
-            fontWeight: "bolder",
-            textTransform: "unset !important",
-          }}
-        >
-          Say hi!
-        </Button>
+        <Box display="flex" className={styles["contant-btn-box"]}>
+          <Button
+            variant="outlined"
+            startIcon={<EmailRoundedIcon />}
+            href="mailto:shashankdattabezgum@gmail.com"
+            color="greenBright"
+            size="extraLarge"
+            sx={{
+              fontWeight: "bolder",
+              textTransform: "unset !important",
+            }}
+          >
+            Say hi!
+          </Button>
+        </Box>
       </FadeInSection>
     </div>
   );

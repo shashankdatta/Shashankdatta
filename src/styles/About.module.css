@@ -52,6 +52,7 @@
 .about-content {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .about-description {
@@ -111,12 +112,8 @@
     font-size: 17px;
   }
 
-  .about-image {
-    display: none;
-  }
-
   .about-content {
-    display: unset;
+    flex-direction: column-reverse;
   }
 
   .section-header {

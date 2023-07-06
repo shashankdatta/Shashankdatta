@@ -6,7 +6,7 @@ import shashank from "@/assets/shashank.jpeg";
 export default function About() {
   const one = (
     <p>
-      I am currently pursuing a <b>Master's degree</b> in{" "}
+      I am currently pursuing a <b>Master&apos;s degree</b> in{" "}
       <b>Machine Learning & Artificial Intelligence</b> at{" "}
       <a
         className={styles["about-description"]}
@@ -15,7 +15,7 @@ export default function About() {
       >
         NYU
       </a>
-      . Prior to this, I earned my <b>Bachelor's degree</b> in{" "}
+      . Prior to this, I earned my <b>Bachelor&apos;s degree</b> in{" "}
       <b>Computer Science</b> from{" "}
       <a
         className={styles["about-description"]}
@@ -43,7 +43,7 @@ export default function About() {
       and let&apos;s talk.
     </p>
   );
-  const desc_items = [one, two];
+  // const desc_items = [one, two];
 
   const tech_stack = [
     "Next.js",
@@ -68,7 +68,7 @@ export default function About() {
         </div>
         <div className={styles["about-content"]}>
           <div className={styles["about-description"]}>
-            {[one]}
+            {one}
             {"Here are some technologies I have been working with:"}
             <ul className={styles["tech-stack"]}>
               {tech_stack.map(function (tech_item, i) {
@@ -79,7 +79,7 @@ export default function About() {
                 );
               })}
             </ul>
-            {[two]}
+            {two}
           </div>
           <div className={styles["about-image-wrapper"]}>
             <Image

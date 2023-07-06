@@ -10,24 +10,23 @@ import Box from "@mui/material/Box";
 import FadeInSection from "./FadeInSection";
 import styles from "@/styles/Experience.module.css";
 
-const isHorizontal =
-  typeof window !== "undefined" ? window.innerWidth < 600 : false;
+const isHorizontal = false;
 
 function TabPanel(props) {
-  const { children, value, index, ...other } = props;
+  const { children, value, index, componentType = "p", ...other } = props;
 
   if (isHorizontal) {
     return (
       <div
         role="tabpanel"
         hidden={value !== index}
-        id={`full-width-tabpanel-${index}`}
+        id={styles[`full-width-tabpanel-${index}`]}
         aria-labelledby={`full-width-tab-${index}`}
         {...other}
       >
         {value === index && (
           <Box p={3}>
-            <Typography>{children}</Typography>
+            <Typography component={componentType}>{children}</Typography>
           </Box>
         )}
       </div>
@@ -37,12 +36,13 @@ function TabPanel(props) {
       <div
         role="tabpanel"
         hidden={value !== index}
-        id={`vertical-tabpanel`}
+        id={styles[`vertical-tabpanel-${index}`]}
+        aria-labelledby={`vertical-tab-${index}`}
         {...other}
       >
         {value === index && (
           <Box p={3}>
-            <Typography>{children}</Typography>
+            <Typography component={componentType}>{children}</Typography>
           </Box>
         )}
       </div>
@@ -54,6 +54,7 @@ TabPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.any.isRequired,
   value: PropTypes.any.isRequired,
+  componentType: PropTypes.elementType,
 };
 
 function a11yProps(index) {
@@ -65,23 +66,74 @@ function a11yProps(index) {
   } else {
     return {
       id: `vertical-tab-${index}`,
+      "aria-controls": `vertical-tabpanel-${index}`,
     };
   }
 }
 
+// function TabPanel(props) {
+//   const { children, value, index, ...other } = props;
+
+//   return (
+//     <div
+//       role="tabpanel"
+//       hidden={value !== index}
+//       id={`simple-tabpanel-${index}`}
+//       aria-labelledby={`simple-tab-${index}`}
+//       {...other}
+//     >
+//       {value === index && (
+//         <Box sx={{ p: 3 }}>
+//           <Typography>{children}</Typography>
+//         </Box>
+//       )}
+//     </div>
+//   );
+// }
+
+// TabPanel.propTypes = {
+//   children: PropTypes.node,
+//   index: PropTypes.number.isRequired,
+//   value: PropTypes.number.isRequired,
+// };
+
+// function a11yProps(index) {
+//   return {
+//     id: `simple-tab-${index}`,
+//     "aria-controls": `simple-tabpanel-${index}`,
+//   };
+// }
+
 const DivRoot = styled("div")(({ theme }) => ({
   flexGrow: 1,
-  backgroundColor: "theme.palette.background.paper",
   display: "flex",
   height: 300,
 }));
 
 const StyledTabs = styled(Tabs)(({ theme }) => ({
   borderRight: `1px solid ${theme.palette.divider}`,
+  "& .MuiTabs-indicator": {
+    backgroundColor: theme.palette.greenBright.main,
+  },
+}));
+const StyledTab = styled(Tab)(({ theme }) => ({
+  color: theme.palette.lightestSlate.main,
+  fontSize: "15px",
+  fontFamily: "--font-ntr, ",
+  "&.Mui-selected": {
+    color: theme.palette.greenBright.main,
+  },
+  alignItems: "flex-start",
+  alignContent: "flex-start",
+  textAlign: "left",
 }));
 
 export default function JobList() {
   const [value, setValue] = useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
   const experienceItems = {
     Amazon: {
@@ -137,10 +189,6 @@ export default function JobList() {
     },
   };
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
   return (
     <DivRoot>
       <StyledTabs
@@ -150,15 +198,16 @@ export default function JobList() {
         onChange={handleChange}
       >
         {Object.keys(experienceItems).map((key, i) => (
-          <Tab
+          <StyledTab
             key={key}
             label={isHorizontal ? `0${i}.` : key}
             {...a11yProps(i)}
           />
         ))}
       </StyledTabs>
+
       {Object.keys(experienceItems).map((key, i) => (
-        <TabPanel key={key} value={value} index={i}>
+        <TabPanel componentType="div" key={key} value={value} index={i}>
           <span className={styles["joblist-job-title"]}>
             {experienceItems[key]["jobTitle"] + " "}
           </span>

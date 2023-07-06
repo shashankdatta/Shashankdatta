@@ -3,7 +3,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/fonts/*": ["./public/fonts/*"],
-      "@/assets/*": ["./public/assets/*"]
+      "@/assets/*": ["./public/assets/*"],
+      "@/hooks/*": ["./src/components/hooks/*"]
     }
   }
 }
