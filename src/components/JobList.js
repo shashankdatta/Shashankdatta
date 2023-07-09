@@ -130,13 +130,11 @@ export default function JobList() {
             {experienceItems[key]["duration"]}
           </div>
           <ul className={styles["job-description"]}>
-            {experienceItems[key]["desc"].map(function (descItem, i) {
-              return (
-                <FadeInSection key={i} delay={`${i + 1}00ms`}>
-                  <li key={i}>{descItem}</li>
-                </FadeInSection>
-              );
-            })}
+            {experienceItems[key]["desc"].map((descItem, i) => (
+              <FadeInSection key={i} delay={`${i + 1}00ms`}>
+                <li key={i}>{descItem}</li>
+              </FadeInSection>
+            ))}
           </ul>
         </TabPanel>
       ))}

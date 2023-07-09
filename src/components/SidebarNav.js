@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Sidenav } from "rsuite";
+import { Sidenav, Nav } from "rsuite";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -10,19 +10,11 @@ import styles from "../styles/SidebarNav.module.css";
 import FadeInSection from "./FadeInSection";
 import Link from "next/link";
 
-import { styled } from "@mui/material/styles";
-
 const isMobile =
   typeof window !== "undefined" ? window.innerWidth < 600 : false;
 
 export default function SidebarNav() {
-  const expanded = true;
   const [activeKey, setActiveKey] = useState("1");
-  const defaultOpenKeys = ["3", "4"];
-
-  const handleSelect = (eventKey) => {
-    setActiveKey(eventKey);
-  };
 
   const navlinks = [
     ["intro", "home"],
@@ -34,21 +26,19 @@ export default function SidebarNav() {
   return (
     <div className={styles["sidebar-nav"]}>
       {!isMobile && (
-        <Sidenav
-          expanded={expanded}
-          defaultOpenKeys={defaultOpenKeys}
-          activeKey={activeKey}
-          onSelect={handleSelect}
-          appearance="subtle"
-        >
+        <Sidenav appearance="subtle">
           <Sidenav.Body>
-            <div className={styles["sidebar-links"]}>
-              {navlinks.map((linkArr, i) => (
-                <FadeInSection delay={`${i + 1}00ms`} key={i}>
-                  <a href={`#${linkArr[0]}`}>/{linkArr[1]}</a>
-                </FadeInSection>
-              ))}
-            </div>
+            <Nav activeKey={activeKey} onSelect={setActiveKey}>
+              <div className={styles["sidebar-links"]}>
+                {navlinks.map((linkArr, i) => (
+                  <FadeInSection delay={`${i + 1}00ms`} key={i}>
+                    <Nav.Item as="div">
+                      <Link href={`#${linkArr[0]}`}>/{linkArr[1]}</Link>
+                    </Nav.Item>
+                  </FadeInSection>
+                ))}
+              </div>
+            </Nav>
           </Sidenav.Body>
         </Sidenav>
       )}

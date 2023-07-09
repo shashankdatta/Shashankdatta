@@ -93,11 +93,12 @@ b {
 *::-webkit-scrollbar-thumb {
   background-color: var(--green-tint);
   border-radius: 14px;
-  border: 1px solid var(--green-bright);
+  border: 1px dashed var(--green-bright);
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--green-bright);
+  /* border: 1px dashed var(--dark-navy); */
 }
 
 /* ::-webkit-scrollbar-corner {
