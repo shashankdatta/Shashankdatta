@@ -69,3 +69,42 @@ ul {
 b {
   font-size: 17px;
 }
+
+/* Stylizing the browser's default Scrollbar */
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--light-navy) var(--green-bright);
+  scrollbar-track-color: var(--light-navy);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--navy);
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--light-navy);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--green-tint);
+  border-radius: 14px;
+  border: 1px solid var(--green-bright);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--green-bright);
+}
+
+/* ::-webkit-scrollbar-corner {
+  background-color: var(--green-bright);
+}
+::-webkit-resizer {
+  background-color: var(--green-bright);
+}
+::-webkit-scrollbar-button {
+} */

@@ -4,7 +4,7 @@ import FadeInSection from "./FadeInSection";
 
 export default function Experience() {
   return (
-    <div id={styles.experience}>
+    <div id="experience" className={styles.experience}>
       <FadeInSection>
         <div className={styles["section-header"]}>
           <span className={styles["section-title"]}>/ experience</span>

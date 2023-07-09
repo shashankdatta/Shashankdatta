@@ -1,4 +1,4 @@
-#intro {
+.intro {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -12,6 +12,7 @@
   align-items: baseline;
   flex-flow: row nowrap;
   width: 100%;
+  padding-bottom: 3%;
 }
 
 .intro-title {
@@ -48,7 +49,7 @@
     display: none;
   }
 
-  #intro {
+  .intro {
     min-height: unset;
     padding-left: unset;
     margin: 0;

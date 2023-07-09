@@ -1,26 +1,30 @@
-import GitHubIcon from '@mui/icons-material/GitHub';
-import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
+import GitHubIcon from "@mui/icons-material/GitHub";
+import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
+import { IconButton } from "@mui/material";
 
 export default function ExternalLinks(props) {
   return (
-    <span className="external-links">
-      <a className="github-icon" href={props.githubLink}>
-        <GitHubIcon
-          style={{
-            fontSize: 20,
-            color: "var(--lightest-slate)"
-          }}
-        />
-      </a>
+    <span>
+      <IconButton
+        target="_blank"
+        href={props.githubLink}
+        aria-label="github-icon"
+        size="small"
+        color="greenBright"
+      >
+        <GitHubIcon color="lightestSlate" fontSize="small" />
+      </IconButton>
+
       {props.openLink && (
-        <a className="open-icon" href={props.openLink}>
-          <OpenInBrowserIcon
-            style={{
-              fontSize: 25,
-              color: "var(--lightest-slate)"
-            }}
-          />
-        </a>
+        <IconButton
+          target="_blank"
+          href={props.openLink}
+          aria-label="open-icon"
+          size="small"
+          color="greenBright"
+        >
+          <OpenInBrowserIcon color="lightestSlate" fontSize="medium" />
+        </IconButton>
       )}
     </span>
   );

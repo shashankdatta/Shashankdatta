@@ -4,7 +4,8 @@
       "@/*": ["./src/*"],
       "@/fonts/*": ["./public/fonts/*"],
       "@/assets/*": ["./public/assets/*"],
-      "@/hooks/*": ["./src/components/hooks/*"]
+      "@/hooks/*": ["./src/components/hooks/*"],
+      "@/json/*": ["./src/json/*"]
     }
   }
 }

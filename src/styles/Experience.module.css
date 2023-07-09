@@ -1,4 +1,4 @@
-#experience {
+.experience {
   padding-left: 15%;
   min-height: 60vh;
 }
@@ -73,7 +73,7 @@
 .makeStyles-tabs-2 {
   border-right: 1px solid var(--lightest-navy) !important;
 }
-#experience .MuiTab-root {
+.experience .MuiTab-root {
   padding: 6px 20px;
 }
 .MuiButtonBase-root:focus {
@@ -109,7 +109,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #experience {
+  .experience {
     padding-left: unset;
     padding-right: unset;
   }

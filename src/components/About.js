@@ -61,7 +61,7 @@ export default function About() {
   ];
 
   return (
-    <div id={styles.about}>
+    <div id="about" className={styles.about}>
       <FadeInSection>
         <div className={styles["section-header"]}>
           <span className={styles["section-title"]}>/ about me</span>

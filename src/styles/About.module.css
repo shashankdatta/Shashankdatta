@@ -1,4 +1,4 @@
-#about {
+.about {
   padding-left: 15%;
   padding-right: 25%;
   min-height: 60vh;
@@ -95,7 +95,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #about {
+  .about {
     height: unset;
     padding-left: unset;
     padding-right: unset;

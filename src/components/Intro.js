@@ -17,7 +17,7 @@ import styles from "@/styles/Intro.module.css";
 
 export default function Intro() {
   return (
-    <div id={styles.intro}>
+    <div id="intro" className={styles.intro}>
       {/* <FractalTree /> */}
 
       <div className={styles["cmd-style"]}>
@@ -37,7 +37,7 @@ export default function Intro() {
           Coding with a Dash of Caffeine.
         </div>
         <div className={styles["intro-desc"]}>
-          I&apos;m a NYC-based software engineer with a passion for full-stack
+          I&apos;m a NY-based software engineer with a passion for full-stack
           development, artificial intelligence, and machine learning. Let&apos;s
           build something amazing together!
         </div>

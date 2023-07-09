@@ -1,7 +1,7 @@
 .sidebar-nav {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   position: fixed;
   right: 0;
   padding-right: 5%;
@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   text-align: right;
-  font-family: "NTR", sans-serif;
+  font-family: var(--font-ntr);
   letter-spacing: 0em;
   line-height: 1.6em;
   font-size: 16px;
