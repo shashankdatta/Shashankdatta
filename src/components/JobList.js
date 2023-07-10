@@ -37,7 +37,7 @@ function TabPanel(props) {
       <div
         role="tabpanel"
         hidden={value !== index}
-        id={styles[`vertical-tabpanel-${index}`]}
+        id={styles[`vertical-tabpanel`]}
         aria-labelledby={`vertical-tab-${index}`}
         {...other}
       >
@@ -84,9 +84,10 @@ const StyledTabs = styled(Tabs)(({ theme }) => ({
     backgroundColor: theme.palette.greenBright.main,
   },
 }));
+
 const StyledTab = styled(Tab)(({ theme }) => ({
   color: theme.palette.lightestSlate.main,
-  fontSize: "15px",
+  fontSize: "16px",
   fontFamily: "--font-ntr, ",
   "&.Mui-selected": {
     color: theme.palette.greenBright.main,
@@ -126,8 +127,9 @@ export default function JobList() {
             {experienceItems[key]["jobTitle"] + " "}
           </span>
           <span className={styles["joblist-job-company"]}>{key}</span>
-          <div className={styles["joblist-duration"]}>
-            {experienceItems[key]["duration"]}
+          <div className={styles["joblist-info"]}>
+            <div>{experienceItems[key]["duration"]}</div>
+            <div>{experienceItems[key]["location"]}</div>
           </div>
           <ul className={styles["job-description"]}>
             {experienceItems[key]["desc"].map((descItem, i) => (

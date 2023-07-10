@@ -1,6 +1,7 @@
 .experience {
   padding-left: 15%;
   min-height: 60vh;
+  padding-bottom: 5%;
 }
 
 .section-header {
@@ -41,9 +42,12 @@
   font-weight: bold;
 }
 
-.joblist-duration {
+.joblist-info {
+  display: flex;
+  justify-content: space-between;
   font-family: var(--font-ntr);
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: bold;
   color: var(--slate);
 }
 
@@ -112,6 +116,7 @@
   .experience {
     padding-left: unset;
     padding-right: unset;
+    padding-bottom: 5%;
   }
 
   .jss1 {
