@@ -1,7 +1,7 @@
 import "./globals.css";
 
 import { myNTR } from "@/fonts/fonts";
-import Providers from "./providers";
+import { Providers } from "./Providers";
 
 export const metadata = {
   title: "Shashank",

@@ -8,6 +8,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { IconButton } from "@mui/material";
 import styles from "../styles/SidebarNav.module.css";
 import FadeInSection from "./FadeInSection";
+import ThemeSwitcherToggle from "@/app/ThemeSwitcherToggle";
 import Link from "next/link";
 
 const isMobile =
@@ -42,6 +43,11 @@ export default function SidebarNav() {
           </Sidenav.Body>
         </Sidenav>
       )}
+      <div className={styles["sidebar-toggle"]}>
+        <FadeInSection>
+          <ThemeSwitcherToggle />
+        </FadeInSection>
+      </div>
       <div className={styles["sidebar-logos"]}>
         <FadeInSection delay={`${navlinks.length + 1}00ms`}>
           <IconButton
