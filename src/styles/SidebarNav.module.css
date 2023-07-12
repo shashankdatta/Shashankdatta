@@ -4,7 +4,7 @@
   align-items: flex-start;
   position: fixed;
   right: 0;
-  padding-right: 5%;
+  padding-right: 3%;
   bottom: 5%;
   background-color: transparent;
 }
@@ -26,15 +26,14 @@
 }
 
 .sidebar-logos {
-  padding-top: 5px;
   width: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 8px;
 }
 
 .sidebar-toggle {
+  padding-top: 0.7rem;
 }
 
 .sidebar-nav img {
@@ -70,11 +69,6 @@
 
 @media only screen and (max-width: 600px) {
   .sidebar-nav {
-    position: unset;
-    align-items: center;
-  }
-  .sidebar-logos {
-    width: 70px;
-    padding-left: unset;
+    display: none;
   }
 }

@@ -38,18 +38,21 @@ export default function SidebarNav() {
                     </Nav.Item>
                   </FadeInSection>
                 ))}
+                <FadeInSection
+                  delay={`${navlinks.length + 1}00ms`}
+                  key={navlinks.length + 1}
+                >
+                  <Nav.Item as="div" className={styles["sidebar-toggle"]}>
+                    <ThemeSwitcherToggle />
+                  </Nav.Item>
+                </FadeInSection>
               </div>
             </Nav>
           </Sidenav.Body>
         </Sidenav>
       )}
-      <div className={styles["sidebar-toggle"]}>
-        <FadeInSection>
-          <ThemeSwitcherToggle />
-        </FadeInSection>
-      </div>
       <div className={styles["sidebar-logos"]}>
-        <FadeInSection delay={`${navlinks.length + 1}00ms`}>
+        <FadeInSection delay={`${navlinks.length + 2}00ms`}>
           <IconButton
             target="_blank"
             className="github-icon"
@@ -68,7 +71,7 @@ export default function SidebarNav() {
             />
           </IconButton>
         </FadeInSection>
-        <FadeInSection delay={`${navlinks.length + 2}00ms`}>
+        <FadeInSection delay={`${navlinks.length + 3}00ms`}>
           <IconButton
             target="_blank"
             className="github-icon"
@@ -87,7 +90,7 @@ export default function SidebarNav() {
             />
           </IconButton>
         </FadeInSection>
-        <FadeInSection delay={`${navlinks.length + 3}00ms`}>
+        <FadeInSection delay={`${navlinks.length + 4}00ms`}>
           <IconButton
             target="_blank"
             href="https://www.linkedin.com/in/shashankdatta/"
