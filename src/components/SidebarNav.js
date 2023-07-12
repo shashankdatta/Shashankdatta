@@ -6,9 +6,8 @@ import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { IconButton } from "@mui/material";
-import styles from "../styles/SidebarNav.module.css";
+import styles from "@/styles/SidebarNav.module.css";
 import FadeInSection from "./FadeInSection";
-import ThemeSwitcherToggle from "@/app/ThemeSwitcherToggle";
 import Link from "next/link";
 
 const isMobile =
@@ -43,11 +42,6 @@ export default function SidebarNav() {
           </Sidenav.Body>
         </Sidenav>
       )}
-      <div className={styles["sidebar-toggle"]}>
-        <FadeInSection>
-          <ThemeSwitcherToggle />
-        </FadeInSection>
-      </div>
       <div className={styles["sidebar-logos"]}>
         <FadeInSection delay={`${navlinks.length + 1}00ms`}>
           <IconButton
@@ -59,7 +53,7 @@ export default function SidebarNav() {
           >
             <EmailRoundedIcon
               color="greenBright"
-              style={{ fontSize: "35px" }}
+              style={{ fontSize: "49px" }}
               sx={{
                 "&:hover": {
                   color: "var(--lightestSlate)",
@@ -78,7 +72,7 @@ export default function SidebarNav() {
           >
             <GitHubIcon
               color="greenBright"
-              style={{ fontSize: "32px" }}
+              style={{ fontSize: "45px" }}
               sx={{
                 "&:hover": {
                   color: "var(--lightestSlate)",
@@ -96,7 +90,7 @@ export default function SidebarNav() {
           >
             <LinkedInIcon
               color="greenBright"
-              style={{ fontSize: "35px" }}
+              style={{ fontSize: "50px" }}
               sx={{
                 "&:hover": {
                   color: "var(--lightestSlate)",

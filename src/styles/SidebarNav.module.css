@@ -4,7 +4,7 @@
   align-items: flex-start;
   position: fixed;
   right: 0;
-  padding-right: 5%;
+  padding-right: 3%;
   bottom: 5%;
   background-color: transparent;
 }
@@ -20,21 +20,17 @@
   font-family: var(--font-ntr);
   letter-spacing: 0em;
   line-height: 1.6em;
-  font-size: 16px;
+  font-size: 20px;
   padding: 0.2em;
   font-weight: bold;
 }
 
 .sidebar-logos {
-  padding-top: 5px;
   width: 70px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  padding-bottom: 8px;
-}
-
-.sidebar-toggle {
 }
 
 .sidebar-nav img {

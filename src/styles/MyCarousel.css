@@ -29,16 +29,16 @@
   color: var(--lightest-slate);
 }
 
-.carousel-caption p {
+.carousel-caption div {
   font-family: var(--font-ntr);
   font-weight: bold;
   font-size: 18px;
   color: var(--lightest-slate);
 }
 
-.carousel-caption p.techStack {
+.carousel-caption p.techstack {
   font-family: var(--font-ntr);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: var(--green-bright);
 }

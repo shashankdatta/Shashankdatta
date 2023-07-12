@@ -46,7 +46,7 @@
   display: flex;
   justify-content: space-between;
   font-family: var(--font-ntr);
-  font-size: 19px;
+  font-size: 20px;
   font-weight: bold;
   color: var(--slate);
 }
@@ -95,7 +95,7 @@
   position: relative;
   padding-left: 30px;
   padding-bottom: 16px;
-  font-size: 18px;
+  font-size: 19px;
   color: var(--slate);
 }
 

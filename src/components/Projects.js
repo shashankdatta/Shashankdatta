@@ -43,7 +43,7 @@ export default function Projects() {
                   <h3>{spotlightProjects[key]["title"]}</h3>
                   <div>
                     {spotlightProjects[key]["desc"]}
-                    <p className="techStack">
+                    <p className="techstack">
                       {spotlightProjects[key]["techStack"]}
                     </p>
                   </div>

@@ -28,7 +28,7 @@
     ]
   },
   "Hokie Electric Vehicle Team": {
-    "jobTitle": "Connected and Automated Vehicles Sub Team Member @",
+    "jobTitle": "Connected & Automated Vehicles Sub Team Member @",
     "duration": "January 2022 - May 2023",
     "location": "Blacksburg, VA",
     "desc": [
@@ -44,6 +44,16 @@
       "Managed a student organization focused on microcontrollers and programming principles for diverse technical backgrounds.",
       "Delivered a positive learning experience for members, resulting in a ~75% growth in membership.",
       "Recruited 4 new officers, formed an executive board, and secured a faculty adviser for the club."
+    ]
+  },
+  "4Help": {
+    "jobTitle": "IT Student Consultant @",
+    "duration": "March 2022 - October 2022",
+    "location": "Blacksburg, VA",
+    "desc": [
+      "Provided comprehensive technical support to students, faculty, and staff, addressing software installations, password changes, and network troubleshooting as a 4Help IT Student Consultant at Virginia Tech.",
+      "Delivered exceptional customer service by promptly resolving IT-related issues, demonstrating strong problem-solving skills and effective communication with users.",
+      "Collaborated with a diverse team of IT professionals, contributing to the smooth operation of Virginia Tech's IT services and continuously improving support processes."
     ]
   }
 }

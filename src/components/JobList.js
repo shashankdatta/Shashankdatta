@@ -43,7 +43,9 @@ function TabPanel(props) {
       >
         {value === index && (
           <Box p={3}>
-            <Typography component={componentType}>{children}</Typography>
+            <Typography style={{ maxWidth: "43vw" }} component={componentType}>
+              {children}
+            </Typography>
           </Box>
         )}
       </div>
@@ -83,11 +85,14 @@ const StyledTabs = styled(Tabs)(({ theme }) => ({
   "& .MuiTabs-indicator": {
     backgroundColor: theme.palette.greenBright.main,
   },
+  "& .MuiTabs-scrollButtons": {
+    color: theme.palette.greenBright.main,
+  },
 }));
 
 const StyledTab = styled(Tab)(({ theme }) => ({
   color: theme.palette.lightestSlate.main,
-  fontSize: "16px",
+  fontSize: "17px",
   fontFamily: "--font-ntr, ",
   "&.Mui-selected": {
     color: theme.palette.greenBright.main,
