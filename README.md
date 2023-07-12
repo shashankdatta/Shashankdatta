@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
+  <img  src="https://img.icons8.com/color/48/maintenance.png" alt="maintenance"/>
 </p>
 
 <h1 align="center">
   EXPERIMENTAL BRANCH
 </h1>
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://user-images.githubusercontent.com/32211479/111238274-24f8b100-85cd-11eb-9d5a-00f07cbc05e9.png">
+<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://www.lancaster.ac.uk/stor-i-student-sites/conor-murphy/wp-content/uploads/sites/20/2021/02/expdesign.jpeg">
 
 ## 🛠 set-up
 
