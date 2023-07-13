@@ -88,7 +88,7 @@
 
 .card-desc {
   font-family: var(--font-ntr);
-  font-size: 19px;
+  font-size: 17px;
   color: var(--slate);
   padding-bottom: 40px;
 }
@@ -96,7 +96,7 @@
 .card-tech {
   font-family: var(--font-ntr);
   color: var(--slate);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {
