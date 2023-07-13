@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.icons8.com/ios-filled/50/000000/source-code.png" alt="source-code"/>
+  <img width="48" height="48" src="https://img.icons8.com/fluency/48/source-code.png" alt="source-code"/>
 </p>
 <h1 align="center">
   shashankdatta.com
@@ -8,7 +8,7 @@
   The first iteration of <a href="https://shashankdatta.com" target="_blank">shashankdatta.com</a> built with Next.js leveraging Material UI.
 </p>
 
-<img width="1306" alt="Website Home Page" src="[[https://github.com/shashankdatta/Shashankdatta/assets/68425706/75fe6922-2db1-4461-82f7-ad60dad53dc1.png]]">
+![image](https://github.com/shashankdatta/Shashankdatta/assets/68425706/770b37b2-5bf5-43e9-b248-e82651fd5f0c)
 
 ## 🛠 set-up
 
