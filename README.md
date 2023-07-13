@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
+  <img src="https://img.icons8.com/ios-filled/50/000000/source-code.png" alt="source-code"/>
 </p>
 <h1 align="center">
-  shashankdatta.com - v1
+  shashankdatta.com
 </h1>
 <p align="center">
-  The first iteration of <a href="https://shashankdatta.com" target="_blank">shashankdatta.com</a> built with React.js leveraging Material UI.
+  The first iteration of <a href="https://shashankdatta.com" target="_blank">shashankdatta.com</a> built with Next.js leveraging Material UI.
 </p>
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://user-images.githubusercontent.com/32211479/111238274-24f8b100-85cd-11eb-9d5a-00f07cbc05e9.png">
+<img width="1306" alt="Website Home Page" src="[https://github.com/shashankdatta/Shashankdatta/assets/68425706/75fe6922-2db1-4461-82f7-ad60dad53dc1]">
 
 ## 🛠 set-up
 
