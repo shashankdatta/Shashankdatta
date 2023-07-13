@@ -8,7 +8,7 @@
   The first iteration of <a href="https://shashankdatta.com" target="_blank">shashankdatta.com</a> built with Next.js leveraging Material UI.
 </p>
 
-<img width="1306" alt="Website Home Page" src="[https://github.com/shashankdatta/Shashankdatta/assets/68425706/75fe6922-2db1-4461-82f7-ad60dad53dc1]">
+<img width="1306" alt="Website Home Page" src="(https://github.com/shashankdatta/Shashankdatta/assets/68425706/75fe6922-2db1-4461-82f7-ad60dad53dc1)">
 
 ## 🛠 set-up
 
