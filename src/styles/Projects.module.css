@@ -1,7 +1,14 @@
 .projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-left: 15%;
   padding-right: 25%;
   min-height: 60vh;
+}
+
+.spotlight-container {
+  display: flex;
 }
 
 .projects-grid {

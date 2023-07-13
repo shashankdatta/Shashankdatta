@@ -43,7 +43,7 @@ function TabPanel(props) {
       >
         {value === index && (
           <Box p={3}>
-            <Typography style={{ maxWidth: "43vw" }} component={componentType}>
+            <Typography style={{ maxWidth: "40vw" }} component={componentType}>
               {children}
             </Typography>
           </Box>
@@ -77,7 +77,6 @@ function a11yProps(index) {
 const DivRoot = styled("div")(({ theme }) => ({
   flexGrow: 1,
   display: "flex",
-  height: 300,
 }));
 
 const StyledTabs = styled(Tabs)(({ theme }) => ({

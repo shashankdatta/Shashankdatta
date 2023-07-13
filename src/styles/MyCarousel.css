@@ -24,7 +24,7 @@
 }
 
 .carousel-caption h3 {
-  font-size: 38px;
+  font-size: 3.5vw;
   font-weight: bold;
   color: var(--lightest-slate);
 }
@@ -32,13 +32,13 @@
 .carousel-caption div {
   font-family: var(--font-ntr);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.1vw;
   color: var(--lightest-slate);
 }
 
 .carousel-caption p.techstack {
   font-family: var(--font-ntr);
-  font-size: 16px;
+  font-size: 1.3vw;
   font-weight: bold;
   color: var(--green-bright);
 }

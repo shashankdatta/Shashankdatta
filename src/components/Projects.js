@@ -19,44 +19,46 @@ export default function Projects() {
       <div className={styles["section-header"]}>
         <span className={styles["section-title"]}>/ software-creations</span>
       </div>
-      <FadeInSection>
-        <Carousel>
-          {Object.keys(spotlightProjects).map((key, i) => (
-            <Carousel.Item key={key}>
-              <Image
-                src={spotlightProjects[key]["image"]}
-                alt={key}
-                placeholder="empty"
-                className="d-block w-100"
-                sizes="100vw"
-                width={0}
-                height={0}
-                style={{
-                  objectFit: "contain",
-                  width: "100%",
-                  height: "auto",
-                  opacity: "0.5",
-                }}
-              />
-              <div className={styles["caption-bg"]}>
-                <Carousel.Caption>
-                  <h3>{spotlightProjects[key]["title"]}</h3>
-                  <div>
-                    {spotlightProjects[key]["desc"]}
-                    <p className="techstack">
-                      {spotlightProjects[key]["techStack"]}
-                    </p>
-                  </div>
-                  <ExternalLinks
-                    githubLink={spotlightProjects[key]["link"]}
-                    openLink={spotlightProjects[key]["open"]}
-                  ></ExternalLinks>
-                </Carousel.Caption>
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-      </FadeInSection>
+      <div className={styles["spotlight-container"]}>
+        <FadeInSection>
+          <Carousel>
+            {Object.keys(spotlightProjects).map((key, i) => (
+              <Carousel.Item key={key}>
+                <Image
+                  src={spotlightProjects[key]["image"]}
+                  alt={key}
+                  placeholder="empty"
+                  className="d-block w-100"
+                  sizes="100vw"
+                  width={0}
+                  height={0}
+                  style={{
+                    objectFit: "contain",
+                    width: "100%",
+                    height: "auto",
+                    opacity: "0.5",
+                  }}
+                />
+                <div className={styles["caption-bg"]}>
+                  <Carousel.Caption>
+                    <h3>{spotlightProjects[key]["title"]}</h3>
+                    <div>
+                      {spotlightProjects[key]["desc"]}
+                      <p className="techstack">
+                        {spotlightProjects[key]["techStack"]}
+                      </p>
+                    </div>
+                    <ExternalLinks
+                      githubLink={spotlightProjects[key]["link"]}
+                      openLink={spotlightProjects[key]["open"]}
+                    ></ExternalLinks>
+                  </Carousel.Caption>
+                </div>
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </FadeInSection>
+      </div>
 
       <div className="project-container">
         <ul className={styles["projects-grid"]}>
