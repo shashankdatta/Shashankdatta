@@ -11,7 +11,8 @@ import FadeInSection from "./FadeInSection";
 import styles from "@/styles/Experience.module.css";
 import experienceItems from "@/json/experienceData.json";
 
-const isHorizontal = false;
+const isHorizontal =
+  typeof window !== "undefined" ? window.innerWidth < 600 : false;
 
 function TabPanel(props) {
   const { children, value, index, componentType = "p", ...other } = props;

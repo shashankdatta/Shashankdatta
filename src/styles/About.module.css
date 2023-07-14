@@ -115,6 +115,7 @@
 
   .about-content {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .section-header {
@@ -127,5 +128,14 @@
 
   .section-title {
     font-size: 32px;
+  }
+
+  .about-image-wrapper {
+    padding-left: unset;
+  }
+
+  .about-image {
+    margin-left: unset;
+    margin-bottom: 35px;
   }
 }

@@ -49,6 +49,10 @@
     display: none;
   }
 
+  .cmd-style {
+    justify-content: center;
+  }
+
   .intro {
     min-height: unset;
     padding-left: unset;
@@ -57,22 +61,24 @@
   }
 
   .intro-title {
-    font-size: 7.5vw;
+    font-size: 7vw;
   }
+
   .intro-name {
-    font-size: 7.5vw;
+    font-size: 7vw;
   }
 
   .intro-subtitle {
     margin: 0;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
   }
 
   .intro-desc {
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
     max-width: unset;
+    padding-top: 10px;
     padding-bottom: 40px;
   }
 
