@@ -14,19 +14,14 @@ const nextConfig = {
    */
   basePath: "/Shashankdatta",
 
-  assetPrefix: "./",
   /**
    * Disable server-based image optimization. Next.js does not support
    * dynamic features with static exports.
    *
-   * Disable or use one of the loaders like akamai, cloudinary, imgix, static, etc.
-   * https://nextjs.org/docs/basic-features/image-optimization
-   *
    * @see https://nextjs.org/docs/pages/api-reference/components/image#unoptimized
    */
   images: {
-    loader: "akamai",
-    path: "",
+    unoptimized: true,
   },
 };
 
