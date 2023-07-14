@@ -21,9 +21,7 @@ export default function Intro() {
       {/* <FractalTree /> */}
 
       <div className={styles["cmd-style"]}>
-        <div
-          className={styles["intro-name"]}
-        >{`SHDB:~\u00A0\u00A0/$\u00A0`}</div>
+        <div className={styles["intro-name"]}>{`SHDB:-/$\u00A0`}</div>
         <Typist cursor={{ element: "_" }} avgTypingDelay={120}>
           <span className={styles["intro-title"]}>
             {"hi, "}
