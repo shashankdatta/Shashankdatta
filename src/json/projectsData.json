@@ -6,7 +6,7 @@
       "techStack": "JavaScript, MongoDB, Node.js, React.js, Material UI",
       "link": "https://github.com/rmruss2022/SWAP",
       "open": "https://swap-vt.vercel.app",
-      "image": "./assets/swap.png"
+      "image": "/assets/swap.png"
     }
   },
 
