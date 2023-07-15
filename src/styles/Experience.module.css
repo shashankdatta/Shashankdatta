@@ -56,34 +56,6 @@
   padding-left: 25px;
 }
 
-.MuiTab-wrapper {
-  font-size: 16px;
-  text-align: left;
-  align-items: flex-start !important;
-  font-family: var(--font-ntr);
-}
-
-.MuiButtonBase-root {
-  outline: none !important;
-  color: var(--lightest-slate) !important;
-}
-
-.PrivateTabIndicator-colorSecondary-5 {
-  background-color: var(--green-bright) !important;
-}
-.jss5 {
-  background-color: var(--green-bright) !important;
-}
-.makeStyles-tabs-2 {
-  border-right: 1px solid var(--lightest-navy) !important;
-}
-.experience .MuiTab-root {
-  padding: 6px 20px;
-}
-.MuiButtonBase-root:focus {
-  color: var(--green-bright) !important;
-}
-
 .job-description li::before {
   content: "▹    ";
   color: var(--green-bright);
@@ -117,17 +89,6 @@
     padding-left: unset;
     padding-right: unset;
     padding-bottom: 5%;
-  }
-
-  .jss1 {
-    height: unset !important;
-    flex-direction: column !important;
-  }
-
-  .makeStyles-root-1 {
-    height: unset !important;
-    width: unset;
-    flex-direction: column;
   }
 
   .joblist-job-title {

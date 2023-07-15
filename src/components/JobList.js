@@ -78,6 +78,9 @@ function a11yProps(index) {
 const DivRoot = styled("div")(({ theme }) => ({
   flexGrow: 1,
   display: "flex",
+  "@media only screen and (max-width: 600px)": {
+    flexDirection: "column",
+  },
 }));
 
 const StyledTabs = styled(Tabs)(({ theme }) => ({
@@ -88,6 +91,34 @@ const StyledTabs = styled(Tabs)(({ theme }) => ({
   "& .MuiTabs-scrollButtons": {
     color: theme.palette.greenBright.main,
   },
+  // "&.MuiButtonBase-root": {
+  //   outline: "none !important",
+  //   color: `${theme.palette.lightestSlate.main} !important`,
+
+  //   "&:hover": {
+  //     color: `${theme.palette.greenBright.main} !important`,
+  //   },
+  // },
+  // "&.PrivateTabIndicator-colorSecondary-5": {
+  //   backgroundColor: `${theme.palette.greenBright.main} !important`,
+  // },
+  // "&.jss5": {
+  //   backgroundColor: `${theme.palette.greenBright.main} !important`,
+  // },
+  // "&.makeStyles-tabs-2": {
+  //   borderRight: `1px solid ${theme.palette.lightestNavy.main} !important`,
+  // },
+  // "@media only screen and (max-width: 600px)": {
+  //   "&.jss1": {
+  //     height: "unset !important",
+  //     flexDirection: "column !important",
+  //   },
+  //   "&.makeStyles-root-1": {
+  //     height: "unset !important",
+  //     width: "unset",
+  //     flexDirection: "column",
+  //   },
+  // },
 }));
 
 const StyledTab = styled(Tab)(({ theme }) => ({
@@ -100,6 +131,21 @@ const StyledTab = styled(Tab)(({ theme }) => ({
   alignItems: "flex-start",
   alignContent: "flex-start",
   textAlign: "left",
+  "&.MuiTab-wrapper": {
+    fontSize: "16px",
+    textAlign: "left",
+    alignItems: "flex-start !important",
+    fontFamily: "--font-ntr, ",
+  },
+  "&.MuiTab-root": {
+    padding: "6px 20px",
+  },
+  "@media only screen and (max-width: 600px)": {
+    border: `${theme.palette.greenTint.main} 1px solid`,
+    alignItems: "center",
+    alignContent: "center",
+    textAlign: "center",
+  },
 }));
 
 export default function JobList() {
@@ -116,6 +162,7 @@ export default function JobList() {
         variant={isHorizontal ? "fullWidth" : "scrollable"}
         value={value}
         onChange={handleChange}
+        // scrollButtons={!isHorizontal ? "auto" : null}
       >
         {Object.keys(experienceItems).map((key, i) => (
           <StyledTab
