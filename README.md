@@ -2,14 +2,13 @@
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/source-code.png" alt="source-code"/>
 </p>
 <h1 align="center">
-  shashankdatta.com
+  shdb.me
 </h1>
 <p align="center">
-  The first iteration of <a href="https://shashankdatta.com" target="_blank">shashankdatta.com</a> built with Next.js leveraging Material UI.
+  The first iteration of <a href="https://shdb.me" target="_blank">shdb.me</a> built with Next.js leveraging Material UI.
 </p>
 
 ![Website Home](https://github.com/shashankdatta/Shashankdatta/assets/68425706/337eb28b-5244-461c-b27a-33ca392ba687)
-
 
 ## 🛠 set-up
 
@@ -32,7 +31,6 @@
    ```sh
    npm run build
    ```
-
 
 ## 🎨 color codes
 
