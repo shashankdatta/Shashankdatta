@@ -46,10 +46,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #shashank-model {
-    display: none;
-  }
-
   .intro {
     min-height: unset;
     padding-left: unset;
