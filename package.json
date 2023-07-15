@@ -16,7 +16,7 @@
     "@mui/material": "^5.13.5",
     "babel-runtime": "^6.26.0",
     "bootstrap": "^5.3.0",
-    "eslint": "^8.44.0",
+    "eslint": "^8.45.0",
     "eslint-config-next": "^13.4.9",
     "next": "^13.4.9",
     "prop-types": "^15.8.1",

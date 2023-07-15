@@ -81,7 +81,8 @@
   border-radius: 10px;
   margin-left: 30px;
   box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
-  border: none;
+  border: 2px var(--green-bright) solid;
+  transition: transform 0.3s;
 }
 
 @media only screen and (max-width: 788px) {

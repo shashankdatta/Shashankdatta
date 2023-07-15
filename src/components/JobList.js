@@ -11,13 +11,13 @@ import FadeInSection from "./FadeInSection";
 import styles from "@/styles/Experience.module.css";
 import experienceItems from "@/json/experienceData.json";
 
-const isHorizontal =
+const isMobile =
   typeof window !== "undefined" ? window.innerWidth < 600 : false;
 
 function TabPanel(props) {
   const { children, value, index, componentType = "p", ...other } = props;
 
-  if (isHorizontal) {
+  if (isMobile) {
     return (
       <div
         role="tabpanel"
@@ -27,7 +27,7 @@ function TabPanel(props) {
         {...other}
       >
         {value === index && (
-          <Box p={3}>
+          <Box p={2}>
             <Typography component={componentType}>{children}</Typography>
           </Box>
         )}
@@ -43,8 +43,8 @@ function TabPanel(props) {
         {...other}
       >
         {value === index && (
-          <Box p={3}>
-            <Typography style={{ maxWidth: "40vw" }} component={componentType}>
+          <Box p={2}>
+            <Typography style={{ maxWidth: "34vw" }} component={componentType}>
               {children}
             </Typography>
           </Box>
@@ -62,7 +62,7 @@ TabPanel.propTypes = {
 };
 
 function a11yProps(index) {
-  if (isHorizontal) {
+  if (isMobile) {
     return {
       id: `full-width-tab-${index}`,
       "aria-controls": `full-width-tabpanel-${index}`,
@@ -158,16 +158,16 @@ export default function JobList() {
   return (
     <DivRoot>
       <StyledTabs
-        orientation={!isHorizontal ? "vertical" : null}
-        variant={isHorizontal ? "fullWidth" : "scrollable"}
+        orientation={isMobile ? null : "vertical"}
+        // variant={isMobile ? "fullWidth" : "scrollable"}
+        variant="scrollable"
         value={value}
         onChange={handleChange}
-        // scrollButtons={!isHorizontal ? "auto" : null}
       >
         {Object.keys(experienceItems).map((key, i) => (
           <StyledTab
             key={key}
-            label={isHorizontal ? `0${i}.` : key}
+            label={isMobile ? `0${i + 1}.` : key}
             {...a11yProps(i)}
           />
         ))}
