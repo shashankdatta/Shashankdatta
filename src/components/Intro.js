@@ -1,13 +1,11 @@
 "use client";
 
-// import ShashankModel from "./3D Model/ShashankModel";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 
 import Typist from "react-typist";
 import FadeInSection from "./FadeInSection";
-// import FractalTree from "./FractalTree";
 
 // Typist Related CSS
 import "react-typist/dist/Typist.css";
@@ -18,8 +16,6 @@ import styles from "@/styles/Intro.module.css";
 export default function Intro() {
   return (
     <div id="intro" className={styles.intro}>
-      {/* <FractalTree /> */}
-
       <div className={styles["cmd-style"]}>
         <div className={styles["intro-name"]}>{`SHDB:-/$\u00A0`}</div>
         <Typist cursor={{ element: "_" }} avgTypingDelay={120}>
@@ -35,7 +31,7 @@ export default function Intro() {
           Coding with a Dash of Caffeine.
         </div>
         <div className={styles["intro-desc"]}>
-          I&apos;m a NY-based software engineer with a passion for full-stack
+          I&apos;m a software engineer with a passion for full-stack
           development, artificial intelligence, and machine learning. Let&apos;s
           build something amazing together!
         </div>

@@ -73,6 +73,7 @@
   justify-content: space-between;
   border-bottom: none !important;
 }
+
 .folder-icon {
   color: var(--green-bright);
 }

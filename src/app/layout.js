@@ -4,9 +4,9 @@ import { myNTR } from "@/fonts/fonts";
 import Providers from "./Providers";
 
 export const metadata = {
-  title: "Shashank",
+  title: "Shashank datta Bezgam",
   description:
-    "Welcome to Shashank Datta's Portfolio! Explore my projects showcasing web development, software engineering, and data analysis skills. Experience innovative solutions, attention to detail, and exceptional value. Let's connect and explore possibilities together.",
+    "Welcome to Shashank's Portfolio! Take a journey through my projects, where I demonstrate my expertise in web development, software engineering, and AI & ML. Immerse yourself in innovative solutions, as I combine creativity, technical prowess, and a passion for excellence. Let's connect and explore the possibilities together.",
 };
 
 export default function RootLayout({ children }) {
