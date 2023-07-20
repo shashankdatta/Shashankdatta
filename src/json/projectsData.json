@@ -3,7 +3,7 @@
     "Swap": {
       "title": "SWAP",
       "desc": "A peer-to-peer course trading platform to serve over 37,000 Virginia Tech students, reducing course schedule management time by 70%.",
-      "techStack": "JavaScript, MongoDB, Node.js, React.js, Material UI",
+      "techStack": "JavaScript, MongoDB, Node.js, React.js, Material UI, Vercel",
       "link": "https://github.com/rmruss2022/SWAP",
       "open": "https://swap-vt.vercel.app",
       "image": "/assets/swap.png"
@@ -11,7 +11,7 @@
     "Portfolio": {
       "title": "Portfolio",
       "desc": "A portfolio website to exhibit and highlight my professional accomplishments, projects, creative abilities, and technical expertise, providing a comprehensive showcase of my skills and achievements.",
-      "techStack": "JavaScript, Rsuite.js , Node.js, React.js, Material UI",
+      "techStack": "JavaScript, Next.js, Rsuite.js, Node.js, React.js, Material UI, GitHub Pages",
       "link": "https://github.com/shashankdatta/Portfolio.git",
       "open": "https://shdb.me",
       "image": "/assets/portfolio.png"
@@ -21,14 +21,14 @@
   "All Projects": {
     "SWAP": {
       "desc": "A peer-to-peer course trading platform to serve over 37,000 Virginia Tech students, reducing course schedule management time by 70%.",
-      "techStack": "JavaScript, MongoDB, Node.js, React.js, Material UI",
+      "techStack": "JavaScript, MongoDB, Node.js, React.js, Material UI, Vercel",
       "link": "https://github.com/rmruss2022/SWAP",
       "open": "https://swap-vt.vercel.app"
     },
     "Portfolio": {
       "title": "Portfolio",
       "desc": "A portfolio website to exhibit and highlight my professional accomplishments, projects, creative abilities, and technical expertise, providing a comprehensive showcase of my skills and achievements.",
-      "techStack": "JavaScript, Rsuite.js , Node.js, React.js, Material UI",
+      "techStack": "JavaScript, Next.js, Rsuite.js, Node.js, React.js, Material UI, GitHub Pages",
       "link": "https://github.com/shashankdatta/Portfolio.git",
       "open": "https://shdb.me",
       "image": "/assets/portfolio.png"
