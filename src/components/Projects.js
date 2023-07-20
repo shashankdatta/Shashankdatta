@@ -65,19 +65,21 @@ export default function Projects() {
           {Object.keys(projects).map((key, i) => (
             <FadeInSection key={key} delay={`${i + 1}00ms`}>
               <li className={styles["projects-card"]}>
-                <div className={styles["card-header"]}>
-                  <div className={styles["folder-icon"]}>
-                    <FolderOpenRoundedIcon fontSize="large" />
+                <div className="card-stack">
+                  <div className={styles["card-header"]}>
+                    <div className={styles["folder-icon"]}>
+                      <FolderOpenRoundedIcon fontSize="large" />
+                    </div>
+                    <ExternalLinks
+                      githubLink={projects[key]["link"]}
+                      openLink={projects[key]["open"]}
+                    ></ExternalLinks>
                   </div>
-                  <ExternalLinks
-                    githubLink={projects[key]["link"]}
-                    openLink={projects[key]["open"]}
-                  ></ExternalLinks>
-                </div>
 
-                <p className={styles["card-title"]}>{key}</p>
-                <div className={styles["card-desc"]}>
-                  {projects[key]["desc"]}
+                  <p className={styles["card-title"]}>{key}</p>
+                  <div className={styles["card-desc"]}>
+                    {projects[key]["desc"]}
+                  </div>
                 </div>
                 <div className={styles["card-tech"]}>
                   {projects[key]["techStack"]}
