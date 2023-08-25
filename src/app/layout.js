@@ -1,12 +1,10 @@
-import "./globals.css";
-
 import { myNTR } from "@/fonts/fonts";
 import { Providers } from "./Providers";
 
 export const metadata = {
   title: "Shashank",
   description:
-    "Welcome to Shashank Datta's Portfolio! Explore my projects showcasing web development, software engineering, and data analysis skills. Experience innovative solutions, attention to detail, and exceptional value. Let's connect and explore possibilities together.",
+    "Welcome to Shashank's Portfolio! Explore my projects showcasing web development, software engineering, and data analysis skills. Experience innovative solutions, attention to detail, and exceptional value. Let's connect and explore possibilities together.",
 };
 
 export default function RootLayout({ children }) {

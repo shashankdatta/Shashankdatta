@@ -18,12 +18,12 @@
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: var(--lightest-navy);
+  background-color: var(--lightest-bg);
 }
 
 .section-title {
   font-family: var(--font-ntr);
-  color: var(--lightest-slate);
+  color: var(--title);
   font-size: 46px;
   font-weight: bold;
 }
@@ -32,13 +32,13 @@
   font-family: var(--font-ntr);
   font-size: 28px;
   font-weight: bold;
-  color: var(--lightest-slate);
+  color: var(--title);
 }
 
 .joblist-job-company {
   font-family: var(--font-ntr);
   font-size: 28px;
-  color: var(--green-bright);
+  color: var(--primary);
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@
   font-family: var(--font-ntr);
   font-size: 19px;
   font-weight: bold;
-  color: var(--slate);
+  color: var(--description);
 }
 
 #vertical-tabpanel {
@@ -65,28 +65,28 @@
 
 .MuiButtonBase-root {
   outline: none !important;
-  color: var(--lightest-slate) !important;
+  color: var(--title) !important;
 }
 
 .PrivateTabIndicator-colorSecondary-5 {
-  background-color: var(--green-bright) !important;
+  background-color: var(--primary) !important;
 }
 .jss5 {
-  background-color: var(--green-bright) !important;
+  background-color: var(--primary) !important;
 }
 .makeStyles-tabs-2 {
-  border-right: 1px solid var(--lightest-navy) !important;
+  border-right: 1px solid var(--lightest-bg) !important;
 }
 .experience .MuiTab-root {
   padding: 6px 20px;
 }
 .MuiButtonBase-root:focus {
-  color: var(--green-bright) !important;
+  color: var(--primary) !important;
 }
 
 .job-description li::before {
   content: "▹    ";
-  color: var(--green-bright);
+  color: var(--primary);
   position: absolute;
   left: 0;
 }
@@ -96,7 +96,7 @@
   padding-left: 30px;
   padding-bottom: 16px;
   font-size: 18px;
-  color: var(--slate);
+  color: var(--description);
 }
 
 .job-description {

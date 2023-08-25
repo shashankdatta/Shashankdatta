@@ -26,25 +26,25 @@
 .carousel-caption h3 {
   font-size: 38px;
   font-weight: bold;
-  color: var(--lightest-slate);
+  color: var(--title);
 }
 
 .carousel-caption p {
   font-family: var(--font-ntr);
   font-weight: bold;
   font-size: 18px;
-  color: var(--lightest-slate);
+  color: var(--title);
 }
 
 .carousel-caption p.techStack {
   font-family: var(--font-ntr);
   font-size: 14px;
   font-weight: bold;
-  color: var(--green-bright);
+  color: var(--primary);
 }
 
 .carousel-indicators .active {
-  background-color: var(--green-bright);
+  background-color: var(--primary);
 }
 
 @media only screen and (max-width: 600px) {

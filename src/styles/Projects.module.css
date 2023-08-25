@@ -29,12 +29,12 @@
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: var(--lightest-navy);
+  background-color: var(--lightest-bg);
 }
 
 .section-title {
   font-family: var(--font-ntr);
-  color: var(--lightest-slate);
+  color: var(--title);
   font-size: 46px;
   font-weight: bold;
 }
@@ -48,14 +48,14 @@
   position: relative;
   height: 100%;
   padding: 2rem 1.75rem;
-  background-color: var(--light-navy);
+  background-color: var(--light-bg);
   border-radius: 16px;
   line-height: 1.5;
 }
 
 .projects-card:hover {
   transform: translateY(-7px);
-  background-color: var(--lightest-navy);
+  background-color: var(--lightest-bg);
 }
 
 .card-header {
@@ -67,12 +67,12 @@
   border-bottom: none !important;
 }
 .folder-icon {
-  color: var(--green-bright);
+  color: var(--primary);
 }
 
 .card-title {
   font-family: var(--font-ntr);
-  color: var(--lightest-slate);
+  color: var(--title);
   font-size: 24px;
   font-weight: bold;
   margin: 0;
@@ -81,13 +81,13 @@
 
 .card-desc {
   font-family: var(--font-ntr);
-  color: var(--slate);
+  color: var(--description);
   padding-bottom: 40px;
 }
 
 .card-tech {
   font-family: var(--font-ntr);
-  color: var(--slate);
+  color: var(--description);
   font-size: 16px;
 }
 

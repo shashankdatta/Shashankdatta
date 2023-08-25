@@ -16,38 +16,23 @@ export const darkTheme = createTheme({
   },
   palette: {
     mode: "dark",
-    darkNavy: {
-      main: "#020c1b", // --dark-navy
+    primary: {
+      main: "#00ADB5", // --primary
     },
-    navy: {
-      main: "#0a192f", // --navy
+    title: {
+      main: "#FFFFFF", // --title
     },
-    lightNavy: {
-      main: "#112240", // --light-navy
+    description: {
+      main: "#e2e2e2", // --description
     },
-    lightestNavy: {
-      main: "#233554", // --lightest-navy
+    background: {
+      main: "#1b2027", // --background
     },
-    navyShadow: {
-      main: "rgba(2, 12, 27, 0.7)", // --navy-shadow
+    lightBg: {
+      main: "#222831", // --light-bg
     },
-    slate: {
-      main: "#8892b0", // --slate
-    },
-    lightSlate: {
-      main: "#a8b2d1", // --light-slate
-    },
-    lightestSlate: {
-      main: "#ccd6f6", // --lightest-slate
-    },
-    white: {
-      main: "#e6f1ff", // --white
-    },
-    greenBright: {
-      main: "#64ffda", // --green-bright
-    },
-    greenTint: {
-      main: "rgba(100, 255, 218, 0.1)", // --green-tint
+    lightestBg: {
+      main: "#2d3641", // --lightest-bg
     },
   },
 });
@@ -68,38 +53,23 @@ export const lightTheme = createTheme({
   },
   palette: {
     mode: "light",
-    darkNavy: {
-      main: "#020c1b", // --dark-navy
+    primary: {
+      main: "#00ADB5", // --primary
     },
-    navy: {
-      main: "#0a192f", // --navy
+    title: {
+      main: "#000000", // --title
     },
-    lightNavy: {
-      main: "#112240", // --light-navy
+    description: {
+      main: "#1b2027", // --description
     },
-    lightestNavy: {
-      main: "#233554", // --lightest-navy
+    background: {
+      main: "#FFFFFF", // --background
     },
-    navyShadow: {
-      main: "rgba(2, 12, 27, 0.7)", // --navy-shadow
+    lightBg: {
+      main: "#f5f5f5", // --light-bg
     },
-    slate: {
-      main: "#8892b0", // --slate
-    },
-    lightSlate: {
-      main: "#a8b2d1", // --light-slate
-    },
-    lightestSlate: {
-      main: "#ccd6f6", // --lightest-slate
-    },
-    white: {
-      main: "#e6f1ff", // --white
-    },
-    greenBright: {
-      main: "#64ffda", // --green-bright
-    },
-    greenTint: {
-      main: "rgba(100, 255, 218, 0.1)", // --green-tint
+    lightestBg: {
+      main: "#e0e0e0", // --lightest-bg
     },
   },
 });

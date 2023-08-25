@@ -61,11 +61,11 @@ export default function SidebarNav() {
             size="small"
           >
             <EmailRoundedIcon
-              color="greenBright"
+              color="primary"
               style={{ fontSize: "35px" }}
               sx={{
                 "&:hover": {
-                  color: "var(--lightestSlate)",
+                  color: "var(--title)",
                 },
               }}
             />
@@ -80,11 +80,11 @@ export default function SidebarNav() {
             size="small"
           >
             <GitHubIcon
-              color="greenBright"
+              color="primary"
               style={{ fontSize: "32px" }}
               sx={{
                 "&:hover": {
-                  color: "var(--lightestSlate)",
+                  color: "var(--title)",
                 },
               }}
             />
@@ -98,11 +98,11 @@ export default function SidebarNav() {
             size="small"
           >
             <LinkedInIcon
-              color="greenBright"
+              color="primary"
               style={{ fontSize: "35px" }}
               sx={{
                 "&:hover": {
-                  color: "var(--lightestSlate)",
+                  color: "var(--title)",
                 },
               }}
             />

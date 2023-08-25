@@ -81,16 +81,16 @@ const DivRoot = styled("div")(({ theme }) => ({
 const StyledTabs = styled(Tabs)(({ theme }) => ({
   borderRight: `1px solid ${theme.palette.divider}`,
   "& .MuiTabs-indicator": {
-    backgroundColor: theme.palette.greenBright.main,
+    backgroundColor: theme.palette.primary.main,
   },
 }));
 
 const StyledTab = styled(Tab)(({ theme }) => ({
-  color: theme.palette.lightestSlate.main,
+  color: theme.palette.title.main,
   fontSize: "16px",
   fontFamily: "--font-ntr, ",
   "&.Mui-selected": {
-    color: theme.palette.greenBright.main,
+    color: theme.palette.primary.main,
   },
   alignItems: "flex-start",
   alignContent: "flex-start",

@@ -1,12 +1,12 @@
 .Typist {
-  color: var(--lightest-slate);
+  color: var(--title);
   text-align: center;
   font-size: 6.5vw;
   margin-top: -30px;
 }
 
 .Typist .Cursor--blinking {
-  color: var(--green-bright);
+  color: var(--primary);
   padding-left: 4px;
 }
 
