@@ -8,6 +8,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { IconButton } from "@mui/material";
 import styles from "@/styles/SidebarNav.module.css";
 import FadeInSection from "./FadeInSection";
+import ThemeSwitcherToggle from "./ThemeSwitcherToggle";
 import Link from "next/link";
 
 const isMobile =
@@ -37,13 +38,21 @@ export default function SidebarNav() {
                     </Nav.Item>
                   </FadeInSection>
                 ))}
+                <FadeInSection
+                  delay={`${navlinks.length + 1}00ms`}
+                  key={navlinks.length + 1}
+                >
+                  <Nav.Item as="div" className={styles["sidebar-toggle"]}>
+                    <ThemeSwitcherToggle />
+                  </Nav.Item>
+                </FadeInSection>
               </div>
             </Nav>
           </Sidenav.Body>
         </Sidenav>
       )}
       <div className={styles["sidebar-logos"]}>
-        <FadeInSection delay={`${navlinks.length + 1}00ms`}>
+        <FadeInSection delay={`${navlinks.length + 2}00ms`}>
           <IconButton
             target="_blank"
             className="github-icon"
@@ -52,30 +61,11 @@ export default function SidebarNav() {
             size="small"
           >
             <EmailRoundedIcon
-              color="greenBright"
+              color="primary"
               style={{ fontSize: "49px" }}
               sx={{
                 "&:hover": {
-                  color: "var(--lightestSlate)",
-                },
-              }}
-            />
-          </IconButton>
-        </FadeInSection>
-        <FadeInSection delay={`${navlinks.length + 2}00ms`}>
-          <IconButton
-            target="_blank"
-            className="github-icon"
-            href="https://github.com/shashankdatta"
-            aria-label="github-icon"
-            size="small"
-          >
-            <GitHubIcon
-              color="greenBright"
-              style={{ fontSize: "45px" }}
-              sx={{
-                "&:hover": {
-                  color: "var(--lightestSlate)",
+                  color: "var(--title)",
                 },
               }}
             />
@@ -84,16 +74,35 @@ export default function SidebarNav() {
         <FadeInSection delay={`${navlinks.length + 3}00ms`}>
           <IconButton
             target="_blank"
+            className="github-icon"
+            href="https://github.com/shashankdatta"
+            aria-label="github-icon"
+            size="small"
+          >
+            <GitHubIcon
+              color="primary"
+              style={{ fontSize: "45px" }}
+              sx={{
+                "&:hover": {
+                  color: "var(--title)",
+                },
+              }}
+            />
+          </IconButton>
+        </FadeInSection>
+        <FadeInSection delay={`${navlinks.length + 4}00ms`}>
+          <IconButton
+            target="_blank"
             href="https://www.linkedin.com/in/shashankdatta/"
             aria-label="linkedin-icon"
             size="small"
           >
             <LinkedInIcon
-              color="greenBright"
+              color="primary"
               style={{ fontSize: "50px" }}
               sx={{
                 "&:hover": {
-                  color: "var(--lightestSlate)",
+                  color: "var(--title)",
                 },
               }}
             />

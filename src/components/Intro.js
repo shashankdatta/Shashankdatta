@@ -35,12 +35,12 @@ export default function Intro() {
           development, artificial intelligence, and machine learning. Let&apos;s
           build something amazing together!
         </div>
-        <Box display="flex" className={styles["contant-btn-box"]}>
+        <Box display="flex" className={styles["content-btn-box"]}>
           <Button
+            color="primary"
             variant="outlined"
             startIcon={<EmailRoundedIcon />}
             href="mailto:shashankdattabezgum@gmail.com"
-            color="greenBright"
             size="extraLarge"
             sx={{
               fontWeight: "bolder",

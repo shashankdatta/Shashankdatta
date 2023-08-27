@@ -11,9 +11,9 @@ export default function ExternalLinks(props) {
           href={props.githubLink}
           aria-label="github-icon"
           size="small"
-          color="greenBright"
+          color="primary"
         >
-          <GitHubIcon color="lightestSlate" fontSize="small" />
+          <GitHubIcon color="title" fontSize="small" />
         </IconButton>
       )}
 
@@ -23,9 +23,9 @@ export default function ExternalLinks(props) {
           href={props.openLink}
           aria-label="open-icon"
           size="small"
-          color="greenBright"
+          color="primary"
         >
-          <OpenInBrowserIcon color="lightestSlate" fontSize="medium" />
+          <OpenInBrowserIcon color="title" fontSize="medium" />
         </IconButton>
       )}
     </span>

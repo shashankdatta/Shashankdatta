@@ -86,27 +86,27 @@ const DivRoot = styled("div")(({ theme }) => ({
 const StyledTabs = styled(Tabs)(({ theme }) => ({
   borderRight: `1px solid ${theme.palette.divider}`,
   "& .MuiTabs-indicator": {
-    backgroundColor: theme.palette.greenBright.main,
+    backgroundColor: theme.palette.primary.main,
   },
   "& .MuiTabs-scrollButtons": {
-    color: theme.palette.greenBright.main,
+    color: theme.palette.primary.main,
   },
   // "&.MuiButtonBase-root": {
   //   outline: "none !important",
-  //   color: `${theme.palette.lightestSlate.main} !important`,
+  //   color: `${theme.palette.title.main} !important`,
 
   //   "&:hover": {
-  //     color: `${theme.palette.greenBright.main} !important`,
+  //     color: `${theme.palette.primary.main} !important`,
   //   },
   // },
   // "&.PrivateTabIndicator-colorSecondary-5": {
-  //   backgroundColor: `${theme.palette.greenBright.main} !important`,
+  //   backgroundColor: `${theme.palette.primary.main} !important`,
   // },
   // "&.jss5": {
-  //   backgroundColor: `${theme.palette.greenBright.main} !important`,
+  //   backgroundColor: `${theme.palette.primary.main} !important`,
   // },
   // "&.makeStyles-tabs-2": {
-  //   borderRight: `1px solid ${theme.palette.lightestNavy.main} !important`,
+  //   borderRight: `1px solid ${theme.palette.lightestBg.main} !important`,
   // },
   // "@media only screen and (max-width: 600px)": {
   //   "&.jss1": {
@@ -122,11 +122,11 @@ const StyledTabs = styled(Tabs)(({ theme }) => ({
 }));
 
 const StyledTab = styled(Tab)(({ theme }) => ({
-  color: theme.palette.lightestSlate.main,
+  color: theme.palette.title.main,
   fontSize: "17px",
   fontFamily: "--font-ntr, ",
   "&.Mui-selected": {
-    color: theme.palette.greenBright.main,
+    color: theme.palette.primary.main,
   },
   alignItems: "flex-start",
   alignContent: "flex-start",
@@ -141,7 +141,7 @@ const StyledTab = styled(Tab)(({ theme }) => ({
     padding: "6px 20px",
   },
   "@media only screen and (max-width: 600px)": {
-    border: `${theme.palette.greenTint.main} 1px solid`,
+    border: `${theme.palette.primary.main} 1px solid`,
     alignItems: "center",
     alignContent: "center",
     textAlign: "center",

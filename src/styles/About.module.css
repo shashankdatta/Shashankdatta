@@ -19,12 +19,12 @@
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: var(--lightest-navy);
+  background-color: var(--lightest-bg);
 }
 
 .section-title {
   font-family: var(--font-ntr);
-  color: var(--lightest-slate);
+  color: var(--title);
   font-size: 46px;
   font-weight: bold;
 }
@@ -40,12 +40,12 @@
   position: relative;
   padding-left: 20px;
   font-size: 18px;
-  color: var(--slate);
+  color: var(--description);
 }
 
 .about-description li::before {
   content: "▹    ";
-  color: var(--green-bright);
+  color: var(--primary);
   position: absolute;
   left: 0;
 }
@@ -58,7 +58,7 @@
 
 .about-description {
   font-family: var(--font-ntr);
-  color: var(--slate);
+  color: var(--description);
   max-width: 600px;
   font-size: 22px;
   text-align: justify;
