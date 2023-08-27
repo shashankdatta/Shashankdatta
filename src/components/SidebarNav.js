@@ -8,6 +8,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { IconButton } from "@mui/material";
 import styles from "@/styles/SidebarNav.module.css";
 import FadeInSection from "./FadeInSection";
+import ThemeSwitcherToggle from "./ThemeSwitcherToggle";
 import Link from "next/link";
 
 const isMobile =

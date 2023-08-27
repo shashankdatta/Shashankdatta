@@ -1,5 +1,5 @@
 import { myNTR } from "@/fonts/fonts";
-import Providers from "./Providers";
+import { Providers } from "@/components/Providers";
 
 export const metadata = {
   title: "Shashank datta Bezgam",

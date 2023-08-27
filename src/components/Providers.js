@@ -4,7 +4,7 @@ import { useState, useMemo, createContext, useEffect } from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import GlobalStyles from "@mui/material/GlobalStyles";
-import getGlobalStyles from "./globalCss";
+import getGlobalStyles from "../app/globalCss";
 
 import { lightTheme, darkTheme } from "@/styles/Theme";
 
