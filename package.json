@@ -15,8 +15,8 @@
     "@mui/icons-material": "latest",
     "@mui/material": "^5.13.5",
     "babel-runtime": "^6.26.0",
-    "bootstrap": "^5.3.0",
-    "eslint": "^8.45.0",
+    "bootstrap": "^5.3.1",
+    "eslint": "^8.48.0",
     "eslint-config-next": "^13.4.9",
     "next": "^13.4.9",
     "prop-types": "^15.8.1",
@@ -27,7 +27,7 @@
     "react-typist": "^2.0.5",
     "rsuite": "^5.37.0",
     "sharp": "^0.32.2",
-    "three": "^0.154.0"
+    "three": "^0.155.0"
   },
   "browserslist": {
     "production": [
