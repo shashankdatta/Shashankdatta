@@ -1,7 +1,7 @@
 /* Animation */
 
 .main {
-  background-color: var(--navy);
+  background-color: var(--background);
   display: flex;
   flex-direction: row;
   /* padding: 36px 76px; */
@@ -22,7 +22,7 @@
 }
 
 #content::selection {
-  background: var(--lightest-navy); /* WebKit/Blink Browsers */
+  background: var(--lightest-bg); /* WebKit/Blink Browsers */
 }
 
 @media (prefers-reduced-motion: no-preference) {

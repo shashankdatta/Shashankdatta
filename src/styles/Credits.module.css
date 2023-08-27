@@ -6,7 +6,7 @@
 
 .ending-credits {
   font-family: var(--font-ntr);
-  color: var(--slate);
+  color: var(--description);
   text-align: center;
   width: 100%;
   font-size: 16px;

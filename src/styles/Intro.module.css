@@ -23,7 +23,7 @@
 
 .intro-name {
   font-family: var(--font-ntr);
-  color: var(--green-bright);
+  color: var(--primary);
   font-weight: bold;
   font-size: 6.5vw;
 }
@@ -31,13 +31,13 @@
 .intro-subtitle {
   margin-top: -36px;
   font-family: var(--font-ntr);
-  color: var(--slate);
+  color: var(--description);
   font-weight: 300;
   font-size: 4vw;
 }
 
 .intro-desc {
-  color: var(--slate);
+  color: var(--description);
   font-family: var(--font-ntr);
   font-size: 22px;
   max-width: 40%;
@@ -79,7 +79,7 @@
     padding-bottom: 40px;
   }
 
-  .contant-btn-box {
+  .content-btn-box {
     justify-content: center;
     align-items: center;
   }

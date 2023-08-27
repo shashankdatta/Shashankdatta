@@ -1,5 +1,3 @@
-import "./globals.css";
-
 import { myNTR } from "@/fonts/fonts";
 import Providers from "./Providers";
 
