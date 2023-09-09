@@ -9,7 +9,8 @@
   The first iteration of <a href="https://shdb.me" target="_blank">shdb.me</a> built with Next.js leveraging Material UI.
 </p>
 
-![Website Home](https://github.com/shashankdatta/Portfolio/assets/68425706/732b58a9-514d-4fb7-aa9d-245f25fd8c41)
+![Website Home Darkmode](https://github.com/shashankdatta/Portfolio/assets/68425706/a4bad9c3-5076-4f5e-8170-d24f7ad7b11a)
+![Website Home Lightmode](https://github.com/shashankdatta/Portfolio/assets/68425706/9f7ff749-a8be-4a2f-966f-61634bc3bdf8)
 
 ## 🛠 set-up
 
