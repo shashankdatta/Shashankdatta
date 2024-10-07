@@ -6,7 +6,7 @@
   shashankdb.com
 </h1>
 <p align="center">
-  The first iteration of <a href="https://shdb.me" target="_blank">shashankdb.com</a> built with Next.js leveraging Material UI.
+  The first iteration of <a href="https://shashankdb.com" target="_blank">shashankdb.com</a> built with Next.js leveraging Material UI.
 </p>
 
 ![Website Home Darkmode](https://github.com/shashankdatta/Portfolio/assets/68425706/a4bad9c3-5076-4f5e-8170-d24f7ad7b11a)
